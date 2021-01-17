@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity{
         setContentView(R.layout.activity_main);
         List<PopularFood> popularFoodList = new ArrayList<>();
 
+
         popularFoodList.add(new PopularFood("Cơm Chiên","25000đ",R.drawable.comchien));
         popularFoodList.add(new PopularFood("Mì Xào Hải Sản","30000đ",R.drawable.mixao));
         popularFoodList.add(new PopularFood("Cháo","20000đ",R.drawable.chao));
